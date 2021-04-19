@@ -81,7 +81,7 @@ Tracks the amount of paid subscribed apps a user has and sends lets the user set
     * Detail
 
 ## Wireframes
-<img src="https://doc-04-0o-docs.googleusercontent.com/docs/securesc/9ko7fondha6bmqsjv926ulm6ui9v4fh1/cn4pgl2kq9125in0b9va30t5rlt17j9n/1618266300000/02320890640136343494/14167415368454854814/1rPCk9qXGfeVDv627Grnb-8L5t1RyrBch?e=view&authuser=1&nonce=7eeu7fe2lbp74&user=14167415368454854814&hash=j1ork4p9vtljmektfsn84d8h8dtaja7d" width=800>
+![202104121811521000](https://user-images.githubusercontent.com/74073256/115314124-9aaeea00-a142-11eb-874b-9c4274abdb43.jpg)
 
 **Models**
 
