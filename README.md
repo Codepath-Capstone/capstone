@@ -138,6 +138,7 @@ Profile
 (READ/GET/UPDATE) get profile info. + subscribed app info + get budget + edit profile info. 
 
 
+![Screen Shot 2021-04-19 at 7 03 41 PM](https://user-images.githubusercontent.com/74073256/115314244-d053d300-a142-11eb-9219-80b8df94369a.png)
 
 
 ### [BONUS] Digital Wireframes & Mockups
