@@ -81,7 +81,64 @@ Tracks the amount of paid subscribed apps a user has and sends lets the user set
     * Detail
 
 ## Wireframes
-<img src="202104121811521000.jpg" width=800>
+<img src="https://doc-04-0o-docs.googleusercontent.com/docs/securesc/9ko7fondha6bmqsjv926ulm6ui9v4fh1/cn4pgl2kq9125in0b9va30t5rlt17j9n/1618266300000/02320890640136343494/14167415368454854814/1rPCk9qXGfeVDv627Grnb-8L5t1RyrBch?e=view&authuser=1&nonce=7eeu7fe2lbp74&user=14167415368454854814&hash=j1ork4p9vtljmektfsn84d8h8dtaja7d" width=800>
+
+**Models**
+
+| Property | Type     | Description |
+| -------- | -------- | -------- |
+| userId    | String   |unique id for each user |
+| name    | pointer to user   | user name
+| appId    | String   |unique id for trending app |
+| image    | file     | image for app logo |
+| description | String   | describes app |
+| title    | String   |title for each app |
+| budget   | number   |budget per month in total|
+| appCost   | number   |cost per month of app |
+| numApps   | number   |number of app subscriptions |
+
+**Networking**
+
+List of network requests by screen
+
+Sign Up 
+(CREATE) Sign up Create a user 
+
+
+func myMethod() {
+  var userId = PFUser()
+  userId.username = "myUsername"
+  userId.password = "myPassword"
+
+  user.signUpInBackground {
+    (succeeded: Bool, error: Error?) -> Void in
+    if let error = error {
+      let errorString = error.localizedDescription
+      // Show the errorString somewhere and let the user try again.
+    } else {
+      // Hooray! Let them use the app now.
+    }
+  }
+}
+
+Login
+(GET) Get user information and authenticate 
+
+Home Feed Screen 
+(READ/GET) read app info + get app feed from api 
+
+
+Single App 
+(GET) get description and title from api for that app
+
+Create 
+(GET) get budget for the app we choose + get total monthly budget 
+
+Profile 
+(READ/GET/UPDATE) get profile info. + subscribed app info + get budget + edit profile info. 
+
+
+
 
 ### [BONUS] Digital Wireframes & Mockups
 
