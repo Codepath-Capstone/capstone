@@ -1,8 +1,5 @@
-Original App Design Project - README Template
-
-
 # AppTrackr
-===
+
 ## Table of Contents
 1. [Overview](#Overview)
 1. [Product Spec](#Product-Spec)
