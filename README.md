@@ -139,6 +139,11 @@ Profile
 
 ![Screen Shot 2021-04-19 at 7 03 41 PM](https://user-images.githubusercontent.com/74073256/115314244-d053d300-a142-11eb-9219-80b8df94369a.png)
 
+### Sign Up 
+<img src="http://g.recordit.co/8phYK2mEWn.gif" width=250><br>
+
+### Log In 
+<img src="http://g.recordit.co/W2dPn8FiFa.gif" width=250><br>
 
 ### [BONUS] Digital Wireframes & Mockups
 
