@@ -1,6 +1,3 @@
-Original App Design Project - README Template
-===
-
 # AppTrackr
 
 ## Table of Contents
@@ -27,14 +24,13 @@ Tracks the amount of paid subscribed apps a user has and sends lets the user set
 ### 1. User Stories (Required and Optional)
 
 **Required Must-have Stories**
-
-* User can register a new account 
-* User can login
-* User can see a stream of trending apps and can add it to their subscribed list 
-* User can add a new subscribed app that they want to track 
-* User can set a budget per month 
-* User can see all subscribed apps in the display
-* User can see the detail/description for each app they subscribed to (when they click on the subscribed app)
+- [x] User can register a new account 
+- [x] User can login
+- [ ] User can loginUser can see a stream of trending apps and can add it to their subscribed list 
+- [ ] User can login User can add a new subscribed app that they want to track 
+- [ ] User can loginUser can set a budget per month 
+- [ ] User can loginUser can see all subscribed apps in the display
+- [ ] User can loginUser can see the detail/description for each app they subscribed to (when they click on the subscribed app)
 
 **Optional Nice-to-have Stories**
 
@@ -81,7 +77,70 @@ Tracks the amount of paid subscribed apps a user has and sends lets the user set
     * Detail
 
 ## Wireframes
-<img src="202104121811521000.jpg" width=800>
+![202104121811521000](https://user-images.githubusercontent.com/74073256/115314124-9aaeea00-a142-11eb-874b-9c4274abdb43.jpg)
+
+**Models**
+
+| Property | Type     | Description |
+| -------- | -------- | -------- |
+| userId    | String   |unique id for each user |
+| name    | pointer to user   | user name
+| appId    | String   |unique id for trending app |
+| image    | file     | image for app logo |
+| description | String   | describes app |
+| title    | String   |title for each app |
+| budget   | number   |budget per month in total|
+| appCost   | number   |cost per month of app |
+| numApps   | number   |number of app subscriptions |
+
+**Networking**
+
+List of network requests by screen
+
+Sign Up 
+(CREATE) Sign up Create a user 
+
+
+func myMethod() {
+  var userId = PFUser()
+  userId.username = "myUsername"
+  userId.password = "myPassword"
+
+  user.signUpInBackground {
+    (succeeded: Bool, error: Error?) -> Void in
+    if let error = error {
+      let errorString = error.localizedDescription
+      // Show the errorString somewhere and let the user try again.
+    } else {
+      // Hooray! Let them use the app now.
+    }
+  }
+}
+
+Login
+(GET) Get user information and authenticate 
+
+Home Feed Screen 
+(READ/GET) read app info + get app feed from api 
+
+
+Single App 
+(GET) get description and title from api for that app
+
+Create 
+(GET) get budget for the app we choose + get total monthly budget 
+
+Profile 
+(READ/GET/UPDATE) get profile info. + subscribed app info + get budget + edit profile info. 
+
+
+![Screen Shot 2021-04-19 at 7 03 41 PM](https://user-images.githubusercontent.com/74073256/115314244-d053d300-a142-11eb-9219-80b8df94369a.png)
+
+### Sign Up / Log Out
+<img src="http://g.recordit.co/8phYK2mEWn.gif" width=600><br>
+
+### Log In 
+<img src="http://g.recordit.co/W2dPn8FiFa.gif" width=600><br>
 
 ### [BONUS] Digital Wireframes & Mockups
 
